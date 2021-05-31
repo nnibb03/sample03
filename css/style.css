@@ -73,7 +73,7 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem 0; }
+  padding: 1rem 1rem 0; }
   @media (min-width: 769px) {
     .header-top {
       align-items: flex-end;
@@ -202,7 +202,7 @@ ul {
   border-bottom: none; }
 
 video {
-  background: url("https://nnibb03.github.io/sample03/190828_29_Timelapse_05.mp4") loop;
+  background: url("https://nnibb03.github.io/sample03/190828_29_Timelapse_05.mp4") no-repeat;
   width: 100%;
   z-index: -100; }
   @media (min-width: 769px) {
@@ -325,7 +325,7 @@ main {
   align-items: flex-end;
   text-align: left;
   text-transform: uppercase;
-  padding: 4rem 2rem 1rem; }
+  padding: 4rem 1rem 1rem; }
   @media (min-width: 769px) {
     .section-title {
       padding: 4rem 0; } }
@@ -354,14 +354,14 @@ main {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  padding: 0 2rem; }
+  padding: 0 1rem; }
   @media (min-width: 769px) {
     .n-wrap {
       flex-direction: row;
       padding: 0; } }
 
 .news-item {
-  margin-bottom: 1.2rem;
+  margin-bottom: 1.4rem;
   transition: all 0.2s; }
   @media (min-width: 769px) {
     .news-item {
@@ -423,7 +423,7 @@ main {
 
 p.news-text {
   margin: 0;
-  padding: 1rem; }
+  padding: 1rem 1rem 1.4rem; }
   @media (min-width: 769px) {
     p.news-text {
       padding: 0 1rem 1.8rem;
