@@ -238,28 +238,6 @@ video {
       width: 400px;
       padding: 26px; } }
 
-.sub-cover {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 10.6rem;
-  padding-top: 6rem;
-  color: #fff;
-  background-image: url("../images/cover.jpg");
-  background-size: cover;
-  background-position: center; }
-  @media (min-width: 769px) {
-    .sub-cover {
-      height: 13.3rem; } }
-
-.sub-cover-title {
-  margin: 0;
-  font-size: 10rem;
-  font-weight: 700; }
-  @media (min-width: 769px) {
-    .sub-cover-title {
-      font-size: 5rem; } }
-
 main {
   background-color: #fff;
   margin-top: 0; }
@@ -309,19 +287,19 @@ main {
   margin-right: 0; }
 
 .s-box-1 {
-  background-image: url("../images/s_box_1.jpg");
+  background-image: url("https://nnibb03.github.io/sample03/s_box_1.jpg");
   background-size: cover; }
 
 .s-box-2 {
-  background-image: url("../images/s_box_2.jpg");
+  background-image: url("https://nnibb03.github.io/sample03/s_box_2.jpg");
   background-size: cover; }
 
 .s-box-3 {
-  background-image: url("../images/s_box_3.jpg");
+  background-image: url("https://nnibb03.github.io/sample03/s_box_3.jpg");
   background-size: cover; }
 
 .s-box-4 {
-  background-image: url("../images/s_box_4.jpg");
+  background-image: url("https://nnibb03.github.io/sample03/s_box_4.jpg");
   background-size: cover; }
 
 .s-box-text {
