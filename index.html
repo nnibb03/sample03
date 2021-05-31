@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Miソリューションズ株式会社</title>
+        <meta name="description" content="Miソリューションズ株式会社のWebサイトです。">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+        <!-- FontAwesome -->
+        <script src="https://kit.fontawesome.com/7c2d15ad4c.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="fb-root"></div>
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v9.0" nonce="PhuV8xie"></script>
+        <!-- ヘッダー -->
+        <header class="header">
+            <div class="header-top">
+                <a href="index.html">
+                    <picture class="logo">
+                        <source media="(max-width:768px)" srcset="./sp_logo.png">
+                        <source media="(min-width:769px)" srcset="./logo.png">
+                        <img src="./logo.png" alt="Miソリューションズ株式会社">
+                    </picture>
+                </a>
+                <!-- SPナビゲーション -->
+                <div id="nav-button" class="nav-button"><i class="fas fa-bars" aria-label="menu"></i></div>
+                <nav class="sp-nav">
+                   <ul class="sp-nav-list">
+                       <li><a href="#">事業内容</a></li>
+                       <li><a href="#">ニュース</a></li>
+                       <li><a href="#">会社案内</a></li>
+                       <li><a href="#">採用情報</a></li>
+                       <li><a href="#">お問い合わせ</a></li>
+                   </ul>
+                </nav>
+                <!-- 検索フォーム -->
+                <div class="search">
+                    <form method="get" action="#" class="search_container">
+                      <input type="text" size="25" placeholder="">
+                      <input type="submit" value="&#xf002">
+                    </form>
+                </div>
+            </div>    
+            <!-- PCナビゲーション -->
+            <nav class="pc-nav">
+               <ul class="pc-nav-list">
+                   <li class="dropdown-btn"><a href="service.html">事業内容<i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown">
+                            <li><a href="#">ERPソリューション</a></li>
+                            <li><a href="#">インフラ構築</a></li>
+                            <li><a href="#">データベース構築</a></li>
+                            <li><a href="#">システム開発</a></li>
+                        </ul>
+                    </li>
+                   <li class="dropdown-btn"><a href="topics.html">ニュース<i class="fas fa-chevron-down"></i></a></li>
+                   <li><a href="#">会社案内<i class="fas fa-chevron-down"></i></a></li>
+                   <li><a href="#">採用情報<i class="fas fa-chevron-down"></i></a></li>
+                   <li><a href="#">お問い合わせ<i class="fas fa-chevron-down"></i></a></li>
+               </ul>
+            </nav>
+        </header>
+        <!-- メイン -->
+        <div class="cover">
+            <video  id="video" playsinline muted autoplay loop style="">
+                <source src="https://nnibb03.github.io/sample03/190828_29_Timelapse_05.mp4">
+                <p>動画を再生するには、videoタグをサポートしたブラウザが必要です。</p>
+            </video>
+            <div class="cont">
+                <div class="cont-inner">
+                    <h1>Make the Future.</h1>
+                    <h3>新時代のソリューションを提供する</h3>
+                </div>    
+            </div>
+        </div>
+        <main>
+            <section class="solutions">
+                <div class="inner">
+                    <div class="section-title">
+                        <h2>Solutions</h2>
+                        <h3>事業内容</h3>
+                    </div>
+                    <div class="s-wrap">
+                        <a class="s-box s-box-1" href="">
+                            <div class="s-box-text">
+                                <h3>ERPソリューション</h3>
+                                <img src="./s_icon_1.png" alt="ERPソリューション">
+                                <p>トレンドにいち早く対応したERPソリューションで、人事管理や販売購買管理などの全体最適化を実現します。</p>
+                            </div>
+                        </a>
+                        <a class="s-box s-box-2" href="">
+                            <div class="s-box-text">
+                                <h3>インフラ構築</h3>
+                                <img src="./s_icon_2.png" alt="ERPソリューション">
+                                <p>企業から金融・公共機関まで、幅広いニーズに沿った安定性の高いクラウド基盤システムを提供いたします。</p>
+                            </div>
+                        </a>
+                        <a class="s-box s-box-3" href="">
+                            <div class="s-box-text">
+                                <h3>データベース構築</h3>
+                                <img src="./s_icon_3.png" alt="ERPソリューション">
+                                <p> 構築からバージョンアップやデータ移行などに計画段階から携わり、安全なデータベースの設計・運用をサポートいたします。</p>
+                            </div>
+                        </a>
+                        <a class="s-box s-box-4" href="">
+                            <div class="s-box-text">
+                                <h3>システム開発</h3>
+                                <img src="./s_icon_4.png" alt="ERPソリューション">
+                                <p>要件定義・基本設計・詳細設計からプログラミング・テスト・運用管理などのシステム開発・ 運用全般を行います。</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="news">
+                <div class="inner">
+                    <div class="section-title">
+                        <h2>News</h2>
+                        <h3>最新ニュース</h3>
+                    </div>
+                    <div class="n-wrap">
+                        <div class="news-item">
+                            <div class="news-box">
+                                <div class="thumbnail-img">
+                                    <a href="">
+                                        <img src="./service1.jpg" alt="Webサイト構築">
+                                    </a>
+                                </div>
+                                <div class="n-text">
+                                    <div class="news-caption">
+                                        <span class="news-type n-type-n">お知らせ</span>
+                                        <span class="news-date">2021/4/02</span>
+                                    </div>
+                                    <p class="news-text">リモートワークの推進について</p>
+                                </div>
+                            </div>
+                        </div>                      
+                        <div class="news-item">
+                            <div class="news-box">
+                                <div class="thumbnail-img">
+                                    <a href="">
+                                        <img src="./service2.jpg" alt="Webサイト構築">
+                                    </a>
+                                </div>
+                                <div class="n-text">
+                                    <div class="news-caption">
+                                        <span class="news-type n-type-s">導入実績</span>
+                                        <span class="news-date">2020/03/16</span>
+                                    </div>
+                                    <p class="news-text">(株)ルルテック様へクラウド型倉庫管理システムを提供しました</p>
+                                </div>
+                            </div>
+                        </div>                      
+                        <div class="news-item">
+                            <div class="news-box">
+                                <div class="thumbnail-img">
+                                    <a href="">
+                                        <img src="./service3.jpg" alt="Webサイト構築">
+                                    </a>
+                                </div>
+                                <div class="n-text">
+                                    <div class="news-caption">
+                                        <span class="news-type n-type-n">お知らせ</span>
+                                        <span class="news-date">2021/02/01</span>
+                                    </div>
+                                    <p class="news-text">おかげさまで創立10周年</p>
+                                </div>
+                            </div>
+                        </div>                      
+                        <div class="news-item">
+                            <div class="news-box">
+                                <div class="thumbnail-img">
+                                    <a href="">
+                                        <img src="./news_04.jpg" alt="Webサイト構築">
+                                    </a>
+                                </div>
+                                <div class="n-text">
+                                    <div class="news-caption">
+                                        <span class="news-type n-type-r">新卒採用</span>
+                                        <span class="news-date">2020/12/03</span>
+                                    </div>
+                                    <p class="news-text">12/8 令和２年度 ◯◯大学 学内合同企業セミナーへ参加</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news-button">
+                        <button>ニュース一覧</button>
+                   </div>
+                </div> 
+           </section>
+        </main>
+        <!-- フッター -->
+        <footer class="footer">
+            <div class="footer-body">
+              <div class="footer-info">
+                <div class="footer-logo">
+                    <a href="index.html"><img src="./footer_logo.png" alt="株式会社サンプル"></a>
+                </div>
+                <address class="footer-address">
+                    000-0000 東京都●●区000-0-0
+                    <br>
+                    03-0000-0000
+                </address>
+              </div>
+              <ul class="footer-sns">
+                <li><a href="https://twitter.com/TwitterJP" target="_blank"><i class="fab fa-twitter" aria-label="twitter"></i></a></li>
+                <li><a href="https://www.facebook.com/facebookappJapan/" target="_blank"><i class="fab fa-facebook-f" aria-label="facebook"></i></a></li>
+              </ul>
+           </div>
+           <div class="copyright">
+              <small>©2021 Mi Solutions inc.</small>
+           </div>
+        </footer>
+
+        <!-- JS -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="./js/hamburger.js"></script>
+        <script src="./js/custom.js"></script>
+    </body>
+</html>
